@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-GEMINI_API_KEY = "   "  # Put this in Railway ENV VARS
+GEMINI_API_KEY = ""  # Put this in Railway ENV VARS
 
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
 
